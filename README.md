@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@deno/mod.js';
+import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@v0.1.0-deno/mod.js';
 ```
 
 #### minSignedIntegerDataType( value )
@@ -100,7 +100,7 @@ dt = minSignedIntegerDataType( 1e100 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import exp2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-exp2@deno/mod.js';
-import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@deno/mod.js';
+import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@v0.1.0-deno/mod.js';
 
 // Generate random powers:
 var exp = discreteUniform( 100, 0, 40, {
