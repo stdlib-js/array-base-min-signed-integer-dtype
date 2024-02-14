@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-min-signed-integer-dtype",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Determine the minimum array data type for storing a provided signed integer value.",
   "license": "Apache-2.0",
   "author": {
@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-int16-max": "^0.1.1",
-    "@stdlib/constants-int16-min": "^0.1.1",
-    "@stdlib/constants-int32-max": "^0.1.1",
-    "@stdlib/constants-int32-min": "^0.1.1",
-    "@stdlib/constants-int8-max": "^0.1.1",
-    "@stdlib/constants-int8-min": "^0.1.1",
+    "@stdlib/constants-int16-max": "^0.2.0",
+    "@stdlib/constants-int16-min": "^0.2.0",
+    "@stdlib/constants-int32-max": "^0.2.0",
+    "@stdlib/constants-int32-min": "^0.2.0",
+    "@stdlib/constants-int8-max": "^0.2.0",
+    "@stdlib/constants-int8-min": "^0.2.0",
     "@stdlib/types": "^0.3.1"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.1.2"
+    "@stdlib/bench-harness": "^0.2.0"
   },
   "engines": {
     "node": ">=0.10.0",
