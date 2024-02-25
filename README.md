@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-min-signed-integer-dtype/tags). For example,
+
+```javascript
 import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@v0.2.1-deno/mod.js';
 ```
 
@@ -100,7 +105,7 @@ dt = minSignedIntegerDataType( 1e100 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import exp2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-exp2@deno/mod.js';
-import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@v0.2.1-deno/mod.js';
+import minSignedIntegerDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-min-signed-integer-dtype@deno/mod.js';
 
 // Generate random powers:
 var exp = discreteUniform( 100, 0, 40, {
