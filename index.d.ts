@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,28 +16,34 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { SignedIntegerDataType } from '@stdlib/types/array';
 
 /**
-* Determine the minimum array data type for storing a provided signed integer value.
+* Output data type.
+*/
+type DataType = SignedIntegerDataType | 'float64';
+
+/**
+* Returns the minimum array data type for storing a provided signed integer value.
 *
-* @module @stdlib/array-base-min-signed-integer-dtype
+* @param value - scalar value
+* @returns array data type
 *
 * @example
-* var minSignedIntegerDataType = require( '@stdlib/array-base-min-signed-integer-dtype' );
-*
 * var dt = minSignedIntegerDataType( 1280 );
 * // returns 'int16'
 *
-* dt = minSignedIntegerDataType( 3 );
+* @example
+* var dt = minSignedIntegerDataType( 3 );
 * // returns 'int8'
 */
-
-// MODULES //
-
-var minSignedIntegerDataType = require( './main.js' );
+declare function minSignedIntegerDataType( value: number ): DataType;
 
 
 // EXPORTS //
 
-module.exports = minSignedIntegerDataType;
+export = minSignedIntegerDataType;
